@@ -1,0 +1,101 @@
+report_id,event_type,failure_mode,patient_harm
+3004753838-2024-145969,Death,Receiver allegedly failed to alert or stopped receiving glucose data,Yes
+2954323-2025-42143,Death,Missing glucose alarms,Yes
+3004753838-2025-314408,Death,Falsely displayed low to normal glucose readings,Yes
+2954323-2025-26785,Death,Falsely normal glucose readings reported by device,Yes
+3004753838-2024-055952,Malfunction,Low glucose alarm setting discrepancy (80 vs 79 mg/dL),No
+MW5173056,Death,"CGM reading inaccurate, falsely indicated normal glucose",Yes
+3004753838-2025-185414,Death,Bent cannula prevented insulin delivery,Yes
+3004753838-2024-145958,Death,Failed to alert dangerous glucose levels; stopped receiving data,Yes
+3004753838-2024-092276,Death,Sensor error and disabled alerts prevented hypoglycemia notification,Yes
+2954323-2025-35796,Death,Sensor readings not transmitted to pump controller app,Yes
+3004753838-2020-044358,Injury,Adhesive patch edges caused skin scarring,Yes
+3013756811-2020-66240,Malfunction,CGM reading inaccurate versus blood glucose meter,No
+3004753838-2020-049098,Injury,Skin reaction with rash at sensor insertion site,Yes
+3004753838-2020-039453,Injury,Intermittent audio alert failure; no low glucose alarm,Yes
+3004753838-2020-049231,Injury,Skin reaction at sensor insertion site,Yes
+3004753838-2020-046129,Injury,Skin reaction at sensor insertion site,Yes
+MW5094390,Injury,Adhesive causes red itchy weeping skin rash,Yes
+3004753838-2020-066801,Injury,CGM reading inaccurate compared to BG meter,Yes
+3004753838-2020-049120,Injury,CGM reading inaccurate compared to blood glucose meter,Yes
+3004753838-2020-048105,Malfunction,unknown,No
+3013756811-2020-73274,Injury,CGM reading inaccurate compared to blood glucose meter,Yes
+3004753838-2020-046105,Injury,Skin redness and irritation at sensor insertion site,Yes
+3013756811-2020-75901,Injury,CGM reading inaccurate versus BG meter reading,Yes
+3013756811-2020-47082,Malfunction,CGM reading inaccurate versus blood glucose meter,No
+3004753838-2020-054158,Injury,Sensor error with no glucose readings,Yes
+3013756811-2020-74174,Injury,Unknown sensor reading while sleeping,Yes
+3004753838-2020-057024,Injury,CGM glucose reading inaccurate versus blood glucose meter,Yes
+3013756811-2020-75328,Malfunction,Transmitter lost connection with pump over one hour,No
+3004753838-2020-066002,Malfunction,unknown,No
+3004753838-2020-066603,Injury,Intermittent sensor error and data loss messages; no alerts,Yes
+3004753838-2020-065447,Injury,Skin reaction and blistering under sensor patch,Yes
+MW5095420,Injury,Adhesive causing skin rash and irritation,Yes
+3013756811-2020-43657,Injury,Invalid transmitter ID alert,Yes
+3004753838-2020-071639,Injury,"Skin reaction with itching, blistering, and bleeding at insertion site",Yes
+3004753838-2020-058779,Injury,CGM reading inaccurate compared to blood glucose meter,Yes
+3004753838-2020-048994,Injury,Skin reaction and rash at sensor site,Yes
+MW5095419,Injury,Adhesive causing itchy rash and skin irritation,Yes
+3004753838-2020-039285,Injury,Intermittent audio output causing missed alert,Yes
+3013756811-2020-68206,Injury,CGM reading inaccurate versus meter BG,Yes
+3004753838-2020-044458,Injury,Skin reaction and irritation at sensor insertion site,Yes
+3004753838-2020-067818,Injury,Bleeding at insertion site after off-label arm placement,Yes
+3013756811-2020-67723,Malfunction,Inaccurate CGM glucose reading versus BG meter,No
+3004753838-2020-044466,Injury,Skin reaction at sensor insertion site,Yes
+MW5095388,Injury,Bleeding under sensor patch with skin rash,Yes
+3004753838-2020-056775,Injury,Skin reaction and rash at sensor insertion site,Yes
+3004753838-2020-059195,Injury,CGM glucose reading inaccurate versus blood glucose meter,Yes
+3004753838-2020-043255,Injury,Skin reaction at sensor insertion site,Yes
+3004753838-2020-038808,Injury,Failed to alert on low blood glucose,Yes
+3004753838-2020-072607,Injury,CGM reading inaccurate versus blood glucose meter,Yes
+3004753838-2020-050612,Injury,Sensor adhesion failure causing skin reaction and infection,Yes
+3013756811-2020-40395,Malfunction,Invalid transmitter ID alert preventing sensor session start,No
+3013756811-2020-39834,Malfunction,Transmitter lost connection with pump,No
+3004753838-2020-38961,Malfunction,CGM reading inaccurate compared to blood glucose meter,No
+3004753838-2020-038790,Malfunction,App crash alert on unsupported operating system,No
+3004753838-2020-038776,Malfunction,Transmitter pairing failure,No
+3013756811-2020-40372,Malfunction,Transmitter lost connection with pump,No
+3004753838-2020-038806,Malfunction,Signal loss over one hour,No
+3004753838-2020-039154,Malfunction,Early sensor expiration,No
+3013756811-2020-40932,Malfunction,CGM reading inaccurate versus BG meter,No
+3004753838-2020-038979,Malfunction,"Transmitter failed, zero voltage",No
+3013756811-2020-40064,Malfunction,CGM reading inaccurate versus blood glucose meter,No
+3004753838-2020-038834,Malfunction,Signal loss over one hour,No
+3013756811-2020-40563,Malfunction,Transmitter failed with error message,No
+3004753838-2020-038968,Malfunction,Transmitter failed due to low battery,No
+3004753838-2020-039223,Malfunction,Transmitter failed with error,No
+3013756811-2020-39823,Malfunction,Intermittent loss of connection between transmitter and pump,No
+3004753838-2020-038818,Malfunction,Early sensor expiration,No
+3004753838-2020-038993,Malfunction,Signal loss over one hour,No
+3004753838-2020-039015,Malfunction,Signal loss over one hour,No
+3004753838-2020-039028,Malfunction,Pairing failure due to signal loss,No
+3004753838-2020-039196,Malfunction,Signal loss over one hour,No
+3004753838-2020-039201,Malfunction,Transmitter failed with error,No
+3004753838-2020-038844,Malfunction,Early sensor expiration,No
+3004753838-2020-039270,Malfunction,Signal loss over one hour,No
+3004753838-2020-038949,Malfunction,Signal loss over one hour,No
+3013756811-2020-40247,Malfunction,Sensor expired prematurely,No
+3004753838-2020-039069,Malfunction,Detached cannula,No
+3004753838-2020-038817,Malfunction,Early sensor expiration,No
+3013756811-2020-40540,Malfunction,Transmitter failed with error message,No
+3013756811-2020-41604,Malfunction,Sensor expired prematurely,No
+3013756811-2020-40427,Malfunction,CGM reading inaccurate versus blood glucose meter,No
+3004753838-2020-038957,Malfunction,Signal loss over one hour,No
+3004753838-2020-038710,Malfunction,Transmitter failed with error,No
+3004753838-2020-039264,Malfunction,Signal loss over one hour,No
+3004753838-2020-039265,Malfunction,Signal loss over one hour,No
+3013756811-2020-40278,Malfunction,CGM reading inaccurate versus blood glucose meter,No
+3004753838-2020-039317,Malfunction,Detached sensor wire,No
+3004753838-2020-038952,Malfunction,Signal loss between sensor and mobile application,No
+3004753838-2020-038914,Malfunction,Signal loss over one hour,No
+3004753838-2020-039126,Malfunction,Early sensor expiration due to transmitter issue,No
+3004753838-2020-039214,Malfunction,Signal loss over one hour,No
+3013756811-2020-42974,Malfunction,Transmitter failed with error message,No
+3013756811-2020-40243,Malfunction,CGM reading inaccurate compared to blood glucose meter,No
+3004753838-2020-039311,Malfunction,Signal loss over one hour,No
+3013756811-2020-39998,Malfunction,Intermittent transmitter to pump connection loss,No
+3004753838-2020-038783,Malfunction,Early sensor expiration due to progressive sensor decline,No
+3004753838-2020-038667,Malfunction,Transmitter failed due to low battery,No
+3004753838-2020-039138,Malfunction,Transmitter failed with error occurrence,No
+3004753838-2020-038417,Malfunction,Transmitter failed due to low battery,No
+3004753838-2020-039009,Malfunction,Signal loss over one hour,No

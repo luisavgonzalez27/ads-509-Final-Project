@@ -1,0 +1,100 @@
+{"report_id": "3004753838-2024-145969", "event_type": "Death", "failure_mode": "Receiver allegedly failed to alert or stopped receiving glucose data", "patient_harm": "Yes"}
+{"report_id": "2954323-2025-42143", "event_type": "Death", "failure_mode": "Missing glucose alarms", "patient_harm": "Yes"}
+{"report_id": "3004753838-2025-314408", "event_type": "Death", "failure_mode": "Falsely displayed low to normal glucose readings", "patient_harm": "Yes"}
+{"report_id": "2954323-2025-26785", "event_type": "Death", "failure_mode": "Falsely normal glucose readings reported by device", "patient_harm": "Yes"}
+{"report_id": "3004753838-2024-055952", "event_type": "Malfunction", "failure_mode": "Low glucose alarm setting discrepancy (80 vs 79 mg/dL)", "patient_harm": "No"}
+{"report_id": "MW5173056", "event_type": "Death", "failure_mode": "CGM reading inaccurate, falsely indicated normal glucose", "patient_harm": "Yes"}
+{"report_id": "3004753838-2025-185414", "event_type": "Death", "failure_mode": "Bent cannula prevented insulin delivery", "patient_harm": "Yes"}
+{"report_id": "3004753838-2024-145958", "event_type": "Death", "failure_mode": "Failed to alert dangerous glucose levels; stopped receiving data", "patient_harm": "Yes"}
+{"report_id": "3004753838-2024-092276", "event_type": "Death", "failure_mode": "Sensor error and disabled alerts prevented hypoglycemia notification", "patient_harm": "Yes"}
+{"report_id": "2954323-2025-35796", "event_type": "Death", "failure_mode": "Sensor readings not transmitted to pump controller app", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-044358", "event_type": "Injury", "failure_mode": "Adhesive patch edges caused skin scarring", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-66240", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate versus blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-049098", "event_type": "Injury", "failure_mode": "Skin reaction with rash at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-039453", "event_type": "Injury", "failure_mode": "Intermittent audio alert failure; no low glucose alarm", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-049231", "event_type": "Injury", "failure_mode": "Skin reaction at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-046129", "event_type": "Injury", "failure_mode": "Skin reaction at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "MW5094390", "event_type": "Injury", "failure_mode": "Adhesive causes red itchy weeping skin rash", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-066801", "event_type": "Injury", "failure_mode": "CGM reading inaccurate compared to BG meter", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-049120", "event_type": "Injury", "failure_mode": "CGM reading inaccurate compared to blood glucose meter", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-048105", "event_type": "Malfunction", "failure_mode": "unknown", "patient_harm": "No"}
+{"report_id": "3013756811-2020-73274", "event_type": "Injury", "failure_mode": "CGM reading inaccurate compared to blood glucose meter", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-046105", "event_type": "Injury", "failure_mode": "Skin redness and irritation at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-75901", "event_type": "Injury", "failure_mode": "CGM reading inaccurate versus BG meter reading", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-47082", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate versus blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-054158", "event_type": "Injury", "failure_mode": "Sensor error with no glucose readings", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-74174", "event_type": "Injury", "failure_mode": "Unknown sensor reading while sleeping", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-057024", "event_type": "Injury", "failure_mode": "CGM glucose reading inaccurate versus blood glucose meter", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-75328", "event_type": "Malfunction", "failure_mode": "Transmitter lost connection with pump over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-066002", "event_type": "Malfunction", "failure_mode": "unknown", "patient_harm": "No"}
+{"report_id": "3004753838-2020-066603", "event_type": "Injury", "failure_mode": "Intermittent sensor error and data loss messages; no alerts", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-065447", "event_type": "Injury", "failure_mode": "Skin reaction and blistering under sensor patch", "patient_harm": "Yes"}
+{"report_id": "MW5095420", "event_type": "Injury", "failure_mode": "Adhesive causing skin rash and irritation", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-43657", "event_type": "Injury", "failure_mode": "Invalid transmitter ID alert", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-071639", "event_type": "Injury", "failure_mode": "Skin reaction with itching, blistering, and bleeding at insertion site", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-058779", "event_type": "Injury", "failure_mode": "CGM reading inaccurate compared to blood glucose meter", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-048994", "event_type": "Injury", "failure_mode": "Skin reaction and rash at sensor site", "patient_harm": "Yes"}
+{"report_id": "MW5095419", "event_type": "Injury", "failure_mode": "Adhesive causing itchy rash and skin irritation", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-039285", "event_type": "Injury", "failure_mode": "Intermittent audio output causing missed alert", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-68206", "event_type": "Injury", "failure_mode": "CGM reading inaccurate versus meter BG", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-044458", "event_type": "Injury", "failure_mode": "Skin reaction and irritation at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-067818", "event_type": "Injury", "failure_mode": "Bleeding at insertion site after off-label arm placement", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-67723", "event_type": "Malfunction", "failure_mode": "Inaccurate CGM glucose reading versus BG meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-044466", "event_type": "Injury", "failure_mode": "Skin reaction at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "MW5095388", "event_type": "Injury", "failure_mode": "Bleeding under sensor patch with skin rash", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-056775", "event_type": "Injury", "failure_mode": "Skin reaction and rash at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-059195", "event_type": "Injury", "failure_mode": "CGM glucose reading inaccurate versus blood glucose meter", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-043255", "event_type": "Injury", "failure_mode": "Skin reaction at sensor insertion site", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-038808", "event_type": "Injury", "failure_mode": "Failed to alert on low blood glucose", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-072607", "event_type": "Injury", "failure_mode": "CGM reading inaccurate versus blood glucose meter", "patient_harm": "Yes"}
+{"report_id": "3004753838-2020-050612", "event_type": "Injury", "failure_mode": "Sensor adhesion failure causing skin reaction and infection", "patient_harm": "Yes"}
+{"report_id": "3013756811-2020-40395", "event_type": "Malfunction", "failure_mode": "Invalid transmitter ID alert preventing sensor session start", "patient_harm": "No"}
+{"report_id": "3013756811-2020-39834", "event_type": "Malfunction", "failure_mode": "Transmitter lost connection with pump", "patient_harm": "No"}
+{"report_id": "3004753838-2020-38961", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate compared to blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038790", "event_type": "Malfunction", "failure_mode": "App crash alert on unsupported operating system", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038776", "event_type": "Malfunction", "failure_mode": "Transmitter pairing failure", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40372", "event_type": "Malfunction", "failure_mode": "Transmitter lost connection with pump", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038806", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039154", "event_type": "Malfunction", "failure_mode": "Early sensor expiration", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40932", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate versus BG meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038979", "event_type": "Malfunction", "failure_mode": "Transmitter failed, zero voltage", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40064", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate versus blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038834", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40563", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error message", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038968", "event_type": "Malfunction", "failure_mode": "Transmitter failed due to low battery", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039223", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error", "patient_harm": "No"}
+{"report_id": "3013756811-2020-39823", "event_type": "Malfunction", "failure_mode": "Intermittent loss of connection between transmitter and pump", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038818", "event_type": "Malfunction", "failure_mode": "Early sensor expiration", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038993", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039015", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039028", "event_type": "Malfunction", "failure_mode": "Pairing failure due to signal loss", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039196", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039201", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038844", "event_type": "Malfunction", "failure_mode": "Early sensor expiration", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039270", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038949", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40247", "event_type": "Malfunction", "failure_mode": "Sensor expired prematurely", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039069", "event_type": "Malfunction", "failure_mode": "Detached cannula", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038817", "event_type": "Malfunction", "failure_mode": "Early sensor expiration", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40540", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error message", "patient_harm": "No"}
+{"report_id": "3013756811-2020-41604", "event_type": "Malfunction", "failure_mode": "Sensor expired prematurely", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40427", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate versus blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038957", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038710", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039264", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039265", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40278", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate versus blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039317", "event_type": "Malfunction", "failure_mode": "Detached sensor wire", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038952", "event_type": "Malfunction", "failure_mode": "Signal loss between sensor and mobile application", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038914", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039126", "event_type": "Malfunction", "failure_mode": "Early sensor expiration due to transmitter issue", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039214", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3013756811-2020-42974", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error message", "patient_harm": "No"}
+{"report_id": "3013756811-2020-40243", "event_type": "Malfunction", "failure_mode": "CGM reading inaccurate compared to blood glucose meter", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039311", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
+{"report_id": "3013756811-2020-39998", "event_type": "Malfunction", "failure_mode": "Intermittent transmitter to pump connection loss", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038783", "event_type": "Malfunction", "failure_mode": "Early sensor expiration due to progressive sensor decline", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038667", "event_type": "Malfunction", "failure_mode": "Transmitter failed due to low battery", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039138", "event_type": "Malfunction", "failure_mode": "Transmitter failed with error occurrence", "patient_harm": "No"}
+{"report_id": "3004753838-2020-038417", "event_type": "Malfunction", "failure_mode": "Transmitter failed due to low battery", "patient_harm": "No"}
+{"report_id": "3004753838-2020-039009", "event_type": "Malfunction", "failure_mode": "Signal loss over one hour", "patient_harm": "No"}
