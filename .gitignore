@@ -1,0 +1,3 @@
+.env
+results/llm_cache.jsonl
+__pycache__/
