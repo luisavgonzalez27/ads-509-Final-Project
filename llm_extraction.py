@@ -39,7 +39,10 @@ Usage:
 
 Prompt versions:
     v1 -- plain-language definitions of Death / Injury / Malfunction.
-    v2 -- adds FDA reporting rules that v1 missed: treated highs/lows,
+    v2 -- aligns label definitions with how MAUDE event types are actually
+          assigned (rules inferred from v1's errors, not the regulation;
+          the treated-lows rule is looser than FDA's 21 CFR 803.3 'serious
+          injury' definition and reflects manufacturer reporting practice): treated highs/lows,
           medical intervention, and physical harm from the device count as
           Injury; any death tied to the event (including a fetus or
           newborn) counts as Death. These gaps were identified from v1's
@@ -131,9 +134,10 @@ Guidelines:
 - Base your answer only on what the narrative states. Do not speculate.
 """,
 
-    # v2: adds FDA medical device reporting rules that v1 missed.
+    # v2: label definitions aligned with how MAUDE event types are actually
+    # assigned (inferred from v1's error analysis; see module docstring).
     "v2": PROMPT_HEADER + """
-Guidelines (these follow FDA medical device reporting conventions):
+Guidelines (these reflect how event types are assigned in MAUDE reports):
 - "Death": anyone involved in the event died, including a fetus or
   newborn, even if it is unclear whether the device caused the death.
 - "Injury": the narrative describes actual harm to a person. This includes:
