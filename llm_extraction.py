@@ -30,12 +30,12 @@ Usage:
     python llm_extraction.py --input data/fda_cgm_reports_1000.csv \
         --prompt v2 --train-sample 100
 
-    # Score a prompt on the 200 TEST reports (same split as notebook 02)
-    python llm_extraction.py --input data/fda_cgm_reports_1000.csv \
-        --prompt v2 --test-only
+    # Score a prompt on the TEST reports from notebook 02's group split
+    python llm_extraction.py --input data/fda_cgm_reports_clean_2.csv \
+        --prompt v2 --test-file data/test_group_split.csv
 
     Outputs go to results/llm_<prompt>_<split>.csv, e.g.
-    results/llm_v2_test.csv or results/llm_v1_train100.csv.
+    results/llm_v2_testgroup.csv or results/llm_v1_train100.csv.
 
 Prompt versions:
     v1 -- plain-language definitions of Death / Injury / Malfunction.
@@ -289,7 +289,7 @@ def score(pred_df: pd.DataFrame, rows: pd.DataFrame) -> None:
     print(pd.DataFrame(cm, index=LABEL_ORDER, columns=LABEL_ORDER))
 
 
-def run_batch(input_csv: str, prompt_version: str, test_only: bool,
+def run_batch(input_csv: str, prompt_version: str, test_file: str | None,
               train_sample: int | None, limit: int | None) -> None:
     """Classify the selected reports and write predictions to a CSV."""
     load_dotenv()
@@ -297,12 +297,15 @@ def run_batch(input_csv: str, prompt_version: str, test_only: bool,
     system_prompt = PROMPTS[prompt_version]
 
     df = pd.read_csv(input_csv, dtype={ID_COL: str})
-    train, test = split_train_test(df)
-    if test_only:
-        rows, split_name = test, "test"
+    if test_file:
+        # Use the group split from notebook 02 (GroupShuffleSplit keeps
+        # identical narratives on the same side of the split)
+        rows = pd.read_csv(test_file, dtype={ID_COL: str})
+        split_name = "testgroup"
     elif train_sample:
-        rows, split_name = sample_train_rows(train, train_sample), \
-            f"train{train_sample}"
+        train, _ = split_train_test(df)
+        rows = sample_train_rows(train, train_sample)
+        split_name = f"train{train_sample}"
     else:
         rows, split_name = df, "all"
     if limit:
@@ -313,8 +316,20 @@ def run_batch(input_csv: str, prompt_version: str, test_only: bool,
     os.makedirs("results", exist_ok=True)
 
     cache = load_cache(cache_path)
+    # Reuse predictions from earlier runs: same prompt + same report_id
+    # means the same input, so there is no need to pay for it again.
+    old_caches = [f"results/cache_{prompt_version}_test.jsonl",
+                  f"results/cache_{prompt_version}_train100.jsonl"]
+    if prompt_version == "v1":
+        old_caches.append("results/cache_v1_test_full1000.jsonl")
+    for old in old_caches:
+        if os.path.exists(old):
+            for k, v in load_cache(old).items():
+                cache.setdefault(k, v)
+
+    n_cached = rows[ID_COL].isin(cache.keys()).sum()
     print(f"Prompt {prompt_version} | {split_name} | {len(rows)} reports; "
-          f"{len(cache)} already cached.")
+          f"{n_cached} already cached.")
 
     with open(cache_path, "a", encoding="utf-8") as cache_file:
         for i, row in rows.iterrows():
@@ -363,13 +378,14 @@ if __name__ == "__main__":
     parser.add_argument("--prompt", choices=sorted(PROMPTS), default="v2",
                         help="Prompt version to use (default: v2)")
     which = parser.add_mutually_exclusive_group()
-    which.add_argument("--test-only", action="store_true",
-                       help="Run the 200 test reports from notebook 02")
+    which.add_argument("--test-file", default=None,
+                       help="CSV with report_id, narrative, event_type "
+                            "(e.g. data/test_group_split.csv)")
     which.add_argument("--train-sample", type=int, default=None,
                        help="Run a stratified sample of N training reports")
     parser.add_argument("--limit", type=int, default=None,
                         help="Only process the first N selected rows")
     args = parser.parse_args()
 
-    run_batch(args.input, args.prompt, args.test_only,
+    run_batch(args.input, args.prompt, args.test_file,
               args.train_sample, args.limit)
