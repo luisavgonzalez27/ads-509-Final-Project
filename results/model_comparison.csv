@@ -1,0 +1,13 @@
+eval_set,model,n,accuracy,macro_f1,errors,malfunction_recall,injury_recall,death_recall
+all_193,LLM v1,193,0.943,0.94,11,1.0,0.88,0.8824
+all_193,LLM v2,193,0.9845,0.9805,3,1.0,0.9733,0.9412
+all_193,SBERT + LogReg,193,0.9741,0.954,5,1.0,0.9733,0.8235
+all_193,SBERT + Balanced LogReg,193,0.9741,0.9638,5,0.9802,0.9867,0.8824
+unique_128,LLM v1,128,0.9141,0.9157,11,1.0,0.8784,0.8824
+unique_128,LLM v2,128,0.9766,0.9723,3,1.0,0.973,0.9412
+unique_128,SBERT + LogReg,128,0.9609,0.9457,5,1.0,0.973,0.8235
+unique_128,SBERT + Balanced LogReg,128,0.9609,0.9523,5,0.9459,0.9865,0.8824
+excl_prompt_dev_190,LLM v1,190,0.9579,0.9598,8,1.0,0.9041,0.9375
+excl_prompt_dev_190,LLM v2,190,0.9842,0.9797,3,1.0,0.9726,0.9375
+excl_prompt_dev_190,SBERT + LogReg,190,0.9737,0.9515,5,1.0,0.9726,0.8125
+excl_prompt_dev_190,SBERT + Balanced LogReg,190,0.9737,0.9622,5,0.9802,0.9863,0.875

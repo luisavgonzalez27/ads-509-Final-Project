@@ -2,5 +2,3 @@
 results/llm_cache.jsonl
 __pycache__/
 .ipynb_checkpoints/
-.ipynb_checkpoints/
-.ipynb_checkpoints/
